@@ -162,7 +162,7 @@ header nav ul .category:hover a{
 
 .smallCardDiv{
     height: 346px;
-    width: 310px;
+    width: 100%;
     background-color: #FFE5CE;
     border-radius: 5px;
     padding: 24px;
