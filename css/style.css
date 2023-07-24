@@ -128,9 +128,11 @@ footer{
 
 }
 
-/* .footItem1, .footItem2, .footItem3, .footItem4{
-    border: 1px solid red;
-} */
+.footItem1, .footItem2, .footItem3, .footItem4{
+    color: #13352C;
+    /* border: 1px solid red; */
+}
+
 
 .footItem1 p{
     margin-top: 32px;
