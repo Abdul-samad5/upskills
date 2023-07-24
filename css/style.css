@@ -93,7 +93,7 @@ margin-bottom: 43px;
 }
 .icons div{
     height: 4.5rem;
-    width: 4.5rem;
+    width: 5rem;
     line-height: 4.5rem;
     border-radius: .5rem;
     color: #fff;
@@ -266,6 +266,7 @@ margin-bottom: 43px;
     background-position: center;
     background-size: cover;
     background: #0E5B61;
+    background-image: url(/pages/products/product-img/bkground-img.png);
     padding-top: 17rem;
     padding-bottom: 10rem;
 }
@@ -590,7 +591,7 @@ font-weight: 700;
     padding: .5rem 0;
 }
 .footer{
-    background: #fff;
+    background: #56abb1;
 }
 .footer .box-container{
     display: grid;
