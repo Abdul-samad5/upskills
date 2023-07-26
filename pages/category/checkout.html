@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/checkout.css">
+</head>
+<body>
+    <div class="overallContainer">
+        <header>
+            <nav>
+              <div>
+                <img src="./images/Delish-cart 1.svg" alt="">
+              </div>
+              <div class="listItems">
+                <ul>
+                  <li><a href="">Home</a></li>
+                  <li><a href="">All Products</a></li>
+                  <li class="category"><a href="">Categories</a></li>
+                </ul>
+              </div>
+              <div class="logos">
+                <img src="./images/search (1).svg" alt="">
+                <img src="./images/shopping-cart.svg" alt="">
+                <img src="./images/user.svg" alt="">
+              </div>
+            </nav>
+          </header>
+
+            <div class="checkoutContainer">
+              <h1>Check Out</h1>
+              <div class="subCheckout">
+
+              <div class="cont1">
+                <form action="">
+                  <div class="subCont1">
+                    <label for="">Personal Information</label>
+                    <div class="personalInfoCont">
+                      <input class="fullName" type="text" placeholder="Enter Full Name">
+                      <input class="phoneNumber" type="number" placeholder="+234">
+                    </div>
+                    <div class="addressCont">
+                      <label for="">Address</label>
+                      <div class="personalInfoCont">
+                        <input class="fullName" type="text" placeholder="Enter Address">
+                        <input class="phoneNumber" type="text" placeholder="Landmark (Optional)">
+                      </div>
+                      <div class="countryCont">
+                        <select name="" id="" class="countrySelect">
+                          <option value="">Country</option>
+                          <option value="">Afghanistan</option>
+                          <option value="">Nigeria</option>
+                          <option value="">United States</option>
+                          <option value="">Poland</option>
+                          <option value="">Croatia</option>
+                          <option value="">United Kingdom</option>
+                          <option value="">Australia</option>
+                          <option value="">Canada</option>
+                          <option value="">Egypt</option>
+                        </select>
+
+                        <select name="" id="" class="countrySelect">
+                          <option value="">State</option>
+                          <option value="">Imo</option>
+                          <option value="">Abia</option>
+                          <option value="">Enugu</option>
+                          <option value="">Lagos</option>
+                          <option value="">Anambra</option>
+                          <option value="">Kogi</option>
+                          <option value="">Kwara</option>
+                          <option value="">Zamfra</option>
+                        </select>
+                        <input class="countrySelect" type="text" placeholder="Postal Code">
+                      </div>
+
+                    </div>
+                    
+                  </div>
+
+                  <div class="cont2">
+                      <label for="">Payment</label>
+                      <div class="paypalCont">
+                        <div class="check"><input type="checkbox"> <span>Paypal</span></div>
+                        <img src="./images/paypal_logo.svg" alt="">
+                      </div>
+                      <hr class="payrule">
+                      <div class="cardCont">
+                        <div class="subCardCont1">
+                          <div class="debit">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M21 12V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V5C3 4.46957 3.21071 3.96086 3.58579 3.58579C3.96086 3.21071 4.46957 3 5 3H16" fill="white"/>
+                              <path d="M21 12V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V5C3 4.46957 3.21071 3.96086 3.58579 3.58579C3.96086 3.21071 4.46957 3 5 3H16" stroke="#093D41" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M9 11L12 14L22 4" stroke="#093D41" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>
+                              <span>Credit or Debit Card</span>
+                          </div>
+                          
+                            <div>
+                              <img src="./images/Rectangle 87.svg" alt="">
+                              <img src="./images/Rectangle 88.svg" alt="">
+                            </div>
+                            
+                        </div>
+                        <hr class="payrule">
+                        <div class="cardNum">
+                          <input class="fullName" type="number" placeholder="Card Number">
+                          <input class="phoneNumber" type="text" placeholder="Candidate Name">
+                        </div>
+                        <div class="monthCont">
+                          <input class="monthInput" type="month" placeholder="mm/year">
+                          <input class="ccvNumber" type="number" placeholder="ccv">
+                        </div>
+                      </div>
+    
+                  </div>
+
+                </form>
+              </div>
+
+             
+              <!-- writing the right side of the checkout that contains images -->
+
+              <div class="cartSummaryContainer">
+                <div class="smallCardDiv">
+                  <h2>Cart Summary</h2>
+                  <hr class="totalRule">
+                  <div class="subTotalCont">
+                    <p>Subtotal</p>
+                    <p>N1925</p>
+                  </div>
+
+                  <div class="subTotalCont">
+                    <p>Delivery</p>
+                    <p>N255</p>
+                  </div>
+                  <hr class="totalRule">
+
+                  <div class="subTotalCont">
+                    <p>Total</p>
+                    <p>N2180</p>
+                  </div>
+
+                  <div class="purchase">Purchase</div>
+
+                </div>
+                <!-- designing the check out items -->
+
+                <div class="checkoutItemsCont">
+                  <div class="strawberriesCont">
+                    <div>
+                      <img src="./images/Rectangle 65.svg" alt="">
+                    </div>
+                    <div class="addBerries">
+                      <div class="straw">
+                        <div>
+                          <h3>Strawberries</h3>
+                          <p>Fruits</p>
+                        </div>
+                        <p>N250</p>
+                      </div>
+                     
+                      <div class="plusandMinusContainer">
+                        <div class="minLogo">
+                          <img src="./images/minus.svg" alt="">
+                        <h1 class="itemNumber">1</h1>
+                        <img src="./images/plus.svg" alt="">
+                        </div>
+                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M3 6.5H5H21" stroke="#093D41" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M19 6.5V20.5C19 21.0304 18.7893 21.5391 18.4142 21.9142C18.0391 22.2893 17.5304 22.5 17 22.5H7C6.46957 22.5 5.96086 22.2893 5.58579 21.9142C5.21071 21.5391 5 21.0304 5 20.5V6.5M8 6.5V4.5C8 3.96957 8.21071 3.46086 8.58579 3.08579C8.96086 2.71071 9.46957 2.5 10 2.5H14C14.5304 2.5 15.0391 2.71071 15.4142 3.08579C15.7893 3.46086 16 3.96957 16 4.5V6.5" stroke="#093D41" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                      </div>
+
+                    </div>
+                  </div>
+                  <hr>
+                  <!-- design for yoghurt -->
+
+                  <div class="strawberriesCont">
+                    <div>
+                      <img src="./images/Rectangle 68.svg" alt="">
+                    </div>
+                    <div class="addBerries">
+                      <div class="straw">
+                        <div>
+                          <h3>Yoghurt</h3>
+                          <p>Diary Product</p>
+                        </div>
+                        <p>N275</p>
+                      </div>
+                     
+                      <div class="plusandMinusContainer">
+                        <div class="minLogo">
+                          <img src="./images/minus.svg" alt="">
+                        <h1 class="itemNumber">1</h1>
+                        <img src="./images/plus.svg" alt="">
+                        </div>
+                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M3 6.5H5H21" stroke="#093D41" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M19 6.5V20.5C19 21.0304 18.7893 21.5391 18.4142 21.9142C18.0391 22.2893 17.5304 22.5 17 22.5H7C6.46957 22.5 5.96086 22.2893 5.58579 21.9142C5.21071 21.5391 5 21.0304 5 20.5V6.5M8 6.5V4.5C8 3.96957 8.21071 3.46086 8.58579 3.08579C8.96086 2.71071 9.46957 2.5 10 2.5H14C14.5304 2.5 15.0391 2.71071 15.4142 3.08579C15.7893 3.46086 16 3.96957 16 4.5V6.5" stroke="#093D41" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                      </div>
+
+                    </div>
+                  </div>
+                  <hr>
+                  <!-- design for banana -->
+
+                  <div class="strawberriesCont">
+                    <div>
+                      <img src="./images/Rectangle 67.svg" alt="">
+                    </div>
+                    <div class="addBerries">
+                      <div class="straw">
+                        <div>
+                          <h3>Banana</h3>
+                          <p>Fruits</p>
+                        </div>
+                        <p>N200</p>
+                      </div>
+                     
+                      <div class="plusandMinusContainer">
+                        <div class="minLogo">
+                          <img src="./images/minus.svg" alt="">
+                        <h1 class="itemNumber">1</h1>
+                        <img src="./images/plus.svg" alt="">
+                        </div>
+                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M3 6.5H5H21" stroke="#093D41" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M19 6.5V20.5C19 21.0304 18.7893 21.5391 18.4142 21.9142C18.0391 22.2893 17.5304 22.5 17 22.5H7C6.46957 22.5 5.96086 22.2893 5.58579 21.9142C5.21071 21.5391 5 21.0304 5 20.5V6.5M8 6.5V4.5C8 3.96957 8.21071 3.46086 8.58579 3.08579C8.96086 2.71071 9.46957 2.5 10 2.5H14C14.5304 2.5 15.0391 2.71071 15.4142 3.08579C15.7893 3.46086 16 3.96957 16 4.5V6.5" stroke="#093D41" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                      </div>
+
+                    </div>
+                  </div>
+                  <hr>
+                  <!--  design for egg-->
+
+                  <div class="strawberriesCont">
+                    <div>
+                      <img src="./images/Rectangle 69.svg" alt="">
+                    </div>
+                    <div class="addBerries">
+                      <div class="straw">
+                        <div>
+                          <h3>Egg</h3>
+                          <p>Proteins</p>
+                        </div>
+                        <p>N1200</p>
+                      </div>
+                     
+                      <div class="plusandMinusContainer">
+                        <div class="minLogo">
+                          <img src="./images/minus.svg" alt="">
+                        <h1 class="itemNumber">1</h1>
+                        <img src="./images/plus.svg" alt="">
+                        </div>
+                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M3 6.5H5H21" stroke="#093D41" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M19 6.5V20.5C19 21.0304 18.7893 21.5391 18.4142 21.9142C18.0391 22.2893 17.5304 22.5 17 22.5H7C6.46957 22.5 5.96086 22.2893 5.58579 21.9142C5.21071 21.5391 5 21.0304 5 20.5V6.5M8 6.5V4.5C8 3.96957 8.21071 3.46086 8.58579 3.08579C8.96086 2.71071 9.46957 2.5 10 2.5H14C14.5304 2.5 15.0391 2.71071 15.4142 3.08579C15.7893 3.46086 16 3.96957 16 4.5V6.5" stroke="#093D41" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+                
+              </div>
+            </div>
+
+            </div>
+
+            <!-- footer design -->
+            <footer>
+              <div class="footItems">
+                <div class="allContact">
+                  <div class="footItem1">
+                      <div>
+                          <img src="./images/Delish-cart 1.svg" alt="">
+                      </div>
+                      <p>Lorem ipsum dolor sit amet <br> 
+                          consectetur. Odio maecenas <br>  
+                          pharetra libero.</p>
+                          <div class="socials">
+                              <img src="./images/Facebook.svg" alt="">
+                              <img src="./images/Twitter.svg" alt="">
+                              <img src="./images/instagram.svg" alt="">
+                              <img src="./images/Indeed.svg" alt="">
+                          </div>
+                  </div>
+                  <div class="footItem2">
+                      <h2>Contact Info</h2>
+                      <div class="footItem2SubDiv">
+                      <div class="contactSubDiv1">
+                        <img src="./images/phone.svg" alt="">
+                        <p>+23480</p>
+                      </div>
+                      <div class="contactSubDiv">
+                        <img src="./images/phone.svg" alt="">
+                        <p>+23480</p>
+                      </div>
+                      <div class="contactSubDiv">
+                        <img src="./images/mail.svg" alt="">
+                        <p>Delishcart@gmail.com</p>
+                      </div>
+                      <div class="contactSubDiv">
+                        <img src="./images/map-pin.svg" alt="">
+                        <p>Abuja</p>
+                      </div>
+                    </div>
+                      
+                  </div>
+                  <div class="footItem3">
+                      <h2>Quick Links</h2>
+                      <div class="footItem2SubDiv">
+                      <div class="contactSubDiv1">
+                        <img src="./images/arrow-right.svg" alt="">
+                        <p>Home</p>
+                      </div>
+                      <div class="contactSubDiv">
+                        <img src="./images/arrow-right.svg" alt="">
+                        <p>Cart</p>
+                      </div>
+                      <div class="contactSubDiv">
+                        <img src="./images/arrow-right.svg" alt="">
+                        <p>Products</p>
+                      </div>
+                      <div class="contactSubDiv">
+                        <img src="./images/arrow-right.svg" alt="">
+                        <p>Categories</p>
+                      </div>
+                      <div class="contactSubDiv">
+                        <img src="./images/arrow-right.svg" alt="">
+                        <p>Account</p>
+                      </div>
+                    </div>
+                  </div>
+      
+                  <div class="footItem4">
+                      <h2>Newsletter</h2>
+                      <div class="footItem2SubDiv">
+                        <p>Subscribe for Latest Updates</p>
+                        <form action="">
+                          <input type="text" placeholder="your email">
+                          <div>
+                          <button>Subscribe</button>
+                        </div>
+                        </form>
+                        <div class="cards">
+                          <img src="./images/Rectangle 87.svg" alt="">
+                          <img src="./images/Rectangle 88.svg" alt="">
+                          <img src="./images/Rectangle 87.svg" alt="">
+                          <img src="./images/Rectangle 88.svg" alt="">
+      
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                 <div class="rule"></div>
+                 <p class="copywright">Upskill Group 26 &copy 2023
+                  /
+                  All Right Reserved</p>
+                  
+              </div>
+      
+            </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+</body>
+</html>

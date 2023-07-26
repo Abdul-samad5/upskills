@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: #FFFF;
+    z-index: 1;
+    box-shadow: 0px 0px 2px 2px rgb(0 0 0 / 0.2);
+    /* border: 1px solid green; */
+   
+}
+
+nav{
+    width: 80%;
+    height: 57px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    /* border: 1px solid magenta; */
+}
+
+header nav ul{
+    display: flex;
+    gap: 45px;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+}
+
+.logos{
+    display: flex;
+    gap: 24px;
+}
+
+header nav ul .category:hover a{
+    color: #FE7D09;
+}
+
+/* .category > a{
+    color: #FE7D09;
+} */
+
+/* NavBar styling stopped here  */
+
+.section1{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 119px;
+    /* border: 2px solid red; */
+}
+
+.all{
+    color: #0E5B61;
+}
+
+.imageDisplayContainer{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    /* border: 1px solid magenta; */
+}
+
+.individualItemsContainer{
+    width: 285px;
+    padding: 24px 12px 24px 12px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    cursor: pointer;
+    /* border: 1px solid orange; */
+}
+
+/* .imm{
+    width:100%;
+} */
+
+.itemList{
+    /* height: 200px; */
+    margin-top: 16px;
+    color: #0E5B61;
+    /* border: 1px solid blue; */
+}
+.bev{
+    margin-bottom: 20px;
+}
+
+.itemListQuantityContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.ExploreContainer{
+    display: flex;
+    gap: 8px;
+    margin-top: 20px;
+}
+
+
+/* Now styling the footer */
+
+footer{
+    height: 460px;
+    background-color: #D8F1E5;
+    margin-top: 106px;
+    /* border: 1px solid blue; */
+}
+
+.footItems{
+    width: 80%;
+    margin: 0 auto;
+    /* border: 1px solid magenta; */
+}
+
+.allContact{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0 32px 0;
+
+}
+
+/* .footItem1, .footItem2, .footItem3, .footItem4{
+    border: 1px solid red;
+} */
+
+.footItem1 p{
+    margin-top: 32px;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.footItem2SubDiv{
+    margin-top: 52px;
+    /* border: 2px solid green; */
+}
+.contactSubDiv1{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    /* border: 2px solid green; */
+
+}
+.contactSubDiv{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-top: 24px;
+    /* border: 1px solid red; */
+}
+
+.footItem2SubDiv input{
+    padding: 10px;
+    border: none;
+    width: 285px;
+    color: #5E9296;
+    margin-top: 24px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.footItem2SubDiv button{
+    width: 131px;
+    padding: 10px;
+    color: #3BB77E;
+    border: none;
+    margin-top: 24px;
+    border: 1px solid #3BB77E ;
+    background-color: #D8F1E5;
+    border-radius: 5px;
+}
+
+.cards{
+    display: flex;
+    gap: 10px;
+    margin-top: 24px;
+}
+
+.rule{
+    /* width: 100%; */
+    /* height: 20px; */
+    border: 1px solid #DEDEDE;
+}
+
+.copywright{
+    text-align: center;
+    margin-top: 32px;
+}
+
+/* Doing the media query */
+
+@media screen and (max-width:600px) {
+    .individualItemsContainer{
+        margin: 0 auto;
+    }
+
+   .allContact{
+    flex-direction: column;
+   }
+
+   footer{
+    height: auto;
+    padding-bottom: 30px;
+   }
+
+    .footItem2, .footItem3, .footItem4{
+    margin-top: 50px;
+    /* border: 1px solid blue; */
+}
+
+.footItem2SubDiv, .footItem1 p{
+    margin-top: 22px;
+}
+
+.socials{
+    justify-content: space-around;
+}
+
+/* navBar media query */
+header nav ul{
+    display: none;
+}
+    
+}

@@ -6,10 +6,11 @@
     <title>Delish Store</title>
     <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
   
-    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css'>
    
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="./pages/category/css/style.css">
 </head>
 <body>
    
@@ -17,17 +18,19 @@
         <a href="#" class="logo"> <img src="./image/logo.jpg" alt="logo"></a>
         <nav class="navbar">
             <a href="#">Home</a> 
-            <a href="./pages/products/index.html">All Products</a> 
-            <a href="./pages/categories">Categories</a> 
+            <a href="./pages/products/all products.html">All Products</a> 
+            <a href="/pages/category/category.html">Categories</a> 
             
         </nav>
         <div class="icons">
             <div class="fas fa-bars" id="menu-btn"></div>
             <div class="fas fa-search" id="search-btn"></div>
             <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        
            
         </div> 
     </header>
+    
     <section class="home" style="width: 1300px;">
         <div class="icons left">
             <div class="fab fa-twitter-square"></div> <br>
@@ -510,9 +513,9 @@
         <div class="swiper review-slider">
             <div class="swiper-wrapper">
                 <div class="swiper-slide box">
-                    <img src="image/pic-1.png" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut officia commodi ipsa. Quos fugiat, quas nostrum eveniet consequuntur dolorum sed.</p>
-                    <h3>john deo</h3>
+                    <img src="images/Ellipse 4.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur. Quisque tortor pharetra orci morbi dis viverra. Morbi ut eget lorem at convallis faucibus elementum.</p>
+                    <h3>Vanessa Carlton</h3>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -523,9 +526,9 @@
                     </div>
                 </div>
                 <div class="swiper-slide box">
-                    <img src="image/pic-2.png" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut officia commodi ipsa. Quos fugiat, quas nostrum eveniet consequuntur dolorum sed.</p>
-                    <h3>john deo</h3>
+                    <img src="images/Ellipse 5.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur. Quisque tortor pharetra orci morbi dis viverra. Morbi ut eget lorem at convallis faucibus elementum.</p>
+                    <h3>Manuel Fibbonaci</h3>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -536,9 +539,9 @@
                     </div>
                 </div>
                 <div class="swiper-slide box">
-                    <img src="image/pic-3.png" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut officia commodi ipsa. Quos fugiat, quas nostrum eveniet consequuntur dolorum sed.</p>
-                    <h3>john deo</h3>
+                    <img src="images/Ellipse 6.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur. Quisque tortor pharetra orci morbi dis viverra. Morbi ut eget lorem at convallis faucibus elementum.</p>
+                    <h3>Sabrina Joseph</h3>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -564,46 +567,119 @@
             </div>
         </div>
     </section>
-    <section class="footer">
-        <div class="box-container">
-            <div class="box">
-                <img src="./image/logo.jpg" style="width: 82px; height: 57px; background: lightgrey;">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, non.</p>
-                <div class="share">
-                    <a href="#" class="fab fa-facebook-f"></a>
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-instagram"></a>
-                    <a href="#" class="fab fa-linkedin"></a>
+    <section class="banner">
+        <div class="frow">
+            <h1>Fresh Meat <br>Best for your family</h1>
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                    <path d="M19 21.5L12 16.5L5 21.5V5.5C5 4.96957 5.21071 4.46086 5.58579 4.08579C5.96086 3.71071 6.46957 3.5 7 3.5H17C17.5304 3.5 18.0391 3.71071 18.4142 4.08579C18.7893 4.46086 19 4.96957 19 5.5V21.5Z" fill="#FEA85B"/>
+                  </svg>
+                  <p>Limited Time Offer</p>
+            </div>
+            <div>
+                <a href="#" class="btn">Shop Now</a>
+                <p>50% discount</p>
+            </div>
+            
+        </div>
+        <div class="srow">
+            <p>Mixed Flavour <br> <span>Best Ice Cream</span></p>
+            <button class="btn">Shop Now</button>
+        </div>
+    </section>
+    <footer>
+        <div class="footItems">
+          <div class="allContact">
+            <div class="footItem1">
+                <div>
+                    <img src="./images/Delish-cart 1.svg" alt="">
+                </div>
+                <p>Lorem ipsum dolor sit amet <br> 
+                    consectetur. Odio maecenas <br>  
+                    pharetra libero.</p>
+                    <div class="socials">
+                        <img src="./images/Facebook.svg" alt="">
+                        <img src="./images/Twitter.svg" alt="">
+                        <img src="./images/instagram.svg" alt="">
+                        <img src="./images/Indeed.svg" alt="">
+                    </div>
+            </div>
+            <div class="footItem2">
+                <h2>Contact Info</h2>
+                <div class="footItem2SubDiv">
+                <div class="contactSubDiv1">
+                  <img src="./images/phone.svg" alt="">
+                  <p>+23480</p>
+                </div>
+                <div class="contactSubDiv">
+                  <img src="./images/phone.svg" alt="">
+                  <p>+23480</p>
+                </div>
+                <div class="contactSubDiv">
+                  <img src="./images/mail.svg" alt="">
+                  <p>Delishcart@gmail.com</p>
+                </div>
+                <div class="contactSubDiv">
+                  <img src="./images/map-pin.svg" alt="">
+                  <p>Abuja</p>
+                </div>
+              </div>
+                
+            </div>
+            <div class="footItem3">
+                <h2>Quick Links</h2>
+                <div class="footItem2SubDiv">
+                <div class="contactSubDiv1">
+                  <img src="./images/arrow-right.svg" alt="">
+                  <p>Home</p>
+                </div>
+                <div class="contactSubDiv">
+                  <img src="./images/arrow-right.svg" alt="">
+                  <p>Cart</p>
+                </div>
+                <div class="contactSubDiv">
+                  <img src="./images/arrow-right.svg" alt="">
+                  <p>Products</p>
+                </div>
+                <div class="contactSubDiv">
+                  <img src="./images/arrow-right.svg" alt="">
+                  <p>Categories</p>
+                </div>
+                <div class="contactSubDiv">
+                  <img src="./images/arrow-right.svg" alt="">
+                  <p>Account</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="footItem4">
+                <h2>Newsletter</h2>
+                <div class="footItem2SubDiv">
+                  <p>Subscribe for Latest Updates</p>
+                  <form action="">
+                    <input type="text" placeholder="your email">
+                    <div>
+                    <button>Subscribe</button>
+                  </div>
+                  </form>
+                  <div class="cards">
+                    <img src="./images/Rectangle 87.svg" alt="">
+                    <img src="./images/Rectangle 88.svg" alt="">
+                    <img src="./images/Rectangle 87.svg" alt="">
+                    <img src="./images/Rectangle 88.svg" alt="">
+
+                  </div>
                 </div>
             </div>
-            <div class="box">
-                <h3>contact info</h3>
-                <a href="" class="links"> <i class="fas fa-phone"></i>+23480</a>
-                <a href="" class="links"> <i class="fas fa-phone"></i> +23480</a>
-                <a href="" class="links"> <i class="fas fa-envelope"></i> Delishcart@gmail.com</a>
-                <a href="" class="links"> <i class="fas fa-map-marker-alt"></i> Abuja</a>
-            </div>
-            <div class="box">
-                <h3>quick links</h3>
-                <a href="" class="links"> <i class="fas fa-arrow-right"></i> home</a>
-                <a href="" class="links"> <i class="fas fa-arrow-right"></i> cart</a>
-                <a href="" class="links"> <i class="fas fa-arrow-right"></i> products</a>
-                <a href="" class="links"> <i class="fas fa-arrow-right"></i> categories</a>
-                <a href="" class="links"> <i class="fas fa-arrow-right"></i> Account</a>
-            </div>
-            <div class="box">
-                <h3>newsletter</h3>
-               <p>subscribe for latest updates</p>
-               <input type="email" placeholder="your email" class="email">
-               <input type="submit" value="subscribe" class="subscribe">
-               <img src="image/payment.png" class="payment-img">
-            </div>
+          </div>
+           <div class="rule"></div>
+           <p class="copywright">Upskill Group 26 &copy 2023
+            /
+            All Right Reserved</p>
+            
         </div>
-        <div class="credit">
-            Upskill Group 26 2023 | all rights reserved
-        </div>
-        
-    </section>
+
+      </footer>
     
     
 
