@@ -86,7 +86,8 @@ margin-bottom: 43px;
 .header .navbar a{
     font-size: 1.7rem;
     margin: 0 1rem;
-    color: #fff
+    color: #fff;
+    /* background: #0E5B61; */
 }
 .header .navbar a:hover{
     color: var(--orange);
@@ -230,7 +231,7 @@ margin-bottom: 43px;
     background: #fff;
     text-align: center;
 }
-.header .login-form.active{
+.header .login-form .active{
     right: 2rem;
     translate: .4s linear;
 }
@@ -583,8 +584,6 @@ height: 380px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap: 1.5rem;
-    /* display: flex;
-    justify-content: space-between; */
 }
 .footer .box-container .box h3{
     font-size: 2.5rem;
@@ -695,7 +694,7 @@ padding: 16px 54px;
         border-radius: .5rem;
         background: #fff;
     }
-    .header .navbar.active{
+    .header .navbar .active{
         right: 2rem;
         translate: .4s linear;
     }
@@ -703,6 +702,8 @@ padding: 16px 54px;
         font-size: 2rem;
         margin: 2rem 2.5rem;
         display: block;
+        /* display: flex;
+        flex-direction: column; */
     }
 }
 
@@ -716,4 +717,22 @@ padding: 16px 54px;
     .footer{
         text-align: center;
     }
+    .banner, .features{
+        display: flex;
+        flex-direction: column;
+    }
+    .frow, .one, .left, .content{
+        margin-bottom: 20px;
+    }
+    .home{
+        display: flex;
+        flex-direction: column;
+        background-size: 400px;
+    }
+    .home img{
+        width: 400px;
+    }
+    /* .features .one{
+        width: 850px;
+    } */
 }
